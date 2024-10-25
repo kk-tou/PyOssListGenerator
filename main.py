@@ -80,8 +80,10 @@ def fetch_react_license_content(lib):
                 license_urls = [
                     f"https://github.com/{username}/{repo_name}/blob/main/LICENSE",
                     f"https://github.com/{username}/{repo_name}/blob/main/LICENSE.md",
+                    f"https://github.com/{username}/{repo_name}/blob/main/LICENSE.txt",
                     f"https://github.com/{username}/{repo_name}/blob/master/LICENSE",
-                    f"https://github.com/{username}/{repo_name}/blob/master/LICENSE.md"
+                    f"https://github.com/{username}/{repo_name}/blob/master/LICENSE.md",
+                    f"https://github.com/{username}/{repo_name}/blob/master/LICENSE.txt"
                 ]
                 # Check which URL is valid
                 for license_url in license_urls:
